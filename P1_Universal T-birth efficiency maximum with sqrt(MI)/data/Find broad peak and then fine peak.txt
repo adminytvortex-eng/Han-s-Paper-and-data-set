@@ -1,0 +1,8 @@
+Peak Localization: The approximate coordinates of major peaks were identified through the broad-mode scan.
+
+Peak Refinement: Subsequently, the fine-mode scan was utilized to pinpoint the precise location and value of these peaks.
+
+Statistical Validation: To rigorously determine the accuracy of the identified FSS values, statistical resampling techniques, specifically bootstrap and jackknife methods, were performed on the fine-mode scan data. These procedures were employed to estimate the uncertainty of the peak values and to ensure the robustness of the final results against sampling bias.
+
+
+The FSS values were calculated by aggregating the fine-mode dataset, followed by statistical validation using bootstrap (N iterations) and jackknife (leave-one-out) procedures to establish confidence intervals.
