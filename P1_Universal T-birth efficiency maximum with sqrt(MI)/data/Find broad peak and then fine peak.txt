@@ -5,4 +5,4 @@ Peak Refinement: Subsequently, the fine-mode scan was utilized to pinpoint the p
 Statistical Validation: To rigorously determine the accuracy of the identified FSS values, statistical resampling techniques, specifically bootstrap and jackknife methods, were performed on the fine-mode scan data. These procedures were employed to estimate the uncertainty of the peak values and to ensure the robustness of the final results against sampling bias.
 
 
-The FSS values were calculated by aggregating the fine-mode dataset, followed by statistical validation using bootstrap (N iterations) and jackknife (leave-one-out) procedures to establish confidence intervals.
+Statistical Analysis The estimation of $T_{\eta}$ was conducted as follows: Bootstrap Resampling: $N = 10,000$ iterations were performed for each lattice size of $L = 48, 128,$ and $256$.Peak Estimation: For every iteration, the peak temperature was identified through 3-point parabolic interpolation. Aggregation: The final $T_{\eta}$ was obtained by computing the inverse-variance weighted average across the three system sizes
